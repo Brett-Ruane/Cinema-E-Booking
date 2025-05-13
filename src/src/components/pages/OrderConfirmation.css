@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: #151515;
+}
+
+.container {
+    display : flex;
+}
+
+.confirmation {
+    display : flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.confirmation-number {
+    font-size: 40px;
+}
+
+.receipt {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.receipt-header {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.item-total-container {
+    display: flex;
+    justify-content: space-between; /* Separate columns */
+    
+}
+.items-column, .prices-column {
+    flex: 1;
+}
+
+.items {
+    flex: 1; /* Each column takes an equal amount of space */
+}
+
+
+
+.go-home {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 300px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.go-home:hover {
+    opacity: 0.7;
+}

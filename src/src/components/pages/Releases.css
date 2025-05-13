@@ -1,0 +1,35 @@
+/* Add these new CSS rules for the search bar */
+.search-bar {
+  display: flex; /* Display the search bar inline with movie blocks */
+  align-items: center; /* Vertically center search bar content */
+  background-color: lightgray;
+  border: 2px solid crimson;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 200px;
+  margin: 0 auto; /* Center the search bar horizontally */
+  overflow: auto;
+}
+
+.search-bar input {
+  flex: 1; /* Allow the input to expand and take remaining space */
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: crimson;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+/* Add these new CSS rules for "Now Playing" and "Coming Soon" headings */
+.section-heading {
+  margin-bottom: 100px; /* Adjust the margin as needed for the desired spacing */
+}

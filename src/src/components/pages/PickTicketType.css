@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.btn{
+  background-Color:crimson;
+  padding: 10px 20px;
+  border-radius: 20px; 
+  color: white;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}

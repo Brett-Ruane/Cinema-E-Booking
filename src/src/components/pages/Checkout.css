@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    background-color: #151515;
+    color: lightgrey;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    height: 100%;
+    color: lightgray;
+}
+.navbar-btn {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar-btn:hover {
+    opacity: 1;
+}
+
+.exit:hover {
+    color: crimson;
+}
+
+.exit {
+    flex: 1;
+    justify-self: flex-end;
+}
+
+.go-back {
+    flex: 1;
+    justify-self: flex-start;
+}
+
+.navbar-title {
+    flex: 9;
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+
+
+.movie-description {
+    display: flex;
+    align-items: center;
+}
+
+.movie-img {
+    flex: 1;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.movie-info-container {
+    flex: 6;
+}
+
+.movie-title {
+    font-size: 50px;
+    padding-bottom: 4px;
+}
+
+.movie-info {
+    font-size: 18px;
+}
+
+.content-container {
+    display: flex;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 50px;
+}
+
+.change{
+    position: relative;
+    width: 70%;
+    min-width:fit-content;
+    margin: 10px 20px 20px;
+    padding: 50px 40px 40px;
+    background:black;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+.change{
+    margin-bottom: 70px;
+    border: 0.5px solid crimson;
+}
+
+
+form .input-group{
+    position: relative;
+}
+
+form .input-group input{
+    width: 80%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.expiration input{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+form .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+form .input-group input:focus + label, .form .input-group input:valid + label{
+    transform: translateY(-18px);
+    color: crimson;
+    font-size: 0.9rem;
+}
+
+.update-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.update-btn:hover{
+    background-color:rgb(228, 54, 54);
+}
+
+
+
+.receipt {
+    background:black;
+    border-radius: 10px;
+    border: 0.5px solid crimson;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+    width: 30%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: 1;
+}
+
+.line {
+    height: 1px;
+    width: 375px;
+    background-color: white;
+    border: none;
+
+}
+
+.line2 {
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.item-total-container {
+    display : flex;
+}
+
+.items {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.items p {
+    padding-bottom: 30px;
+}
+
+.prices p {
+    padding-bottom: 30px;
+}
+
+.edit {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.footer-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 170px;
+    margin-left: auto;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  .footer-btn:hover {
+    opacity: 0.6;
+  }
+  

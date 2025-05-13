@@ -1,0 +1,82 @@
+/* Style for the main container */
+.whole-map {
+  color: black;
+  display: grid; /* Change display property to grid */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Auto-fit columns */
+  gap: 20px; /* Add gap between grid items */
+  align-items: center;
+  overflow: auto;
+}
+
+/* Style for each movie item */
+.map-data {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* Style for the search bar */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+/* Style for movie title */
+.map-name p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style for Buy Tickets button */
+.map-name button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+.map-name button:hover {
+  background-color: #0056b3;
+}
+
+/* Center button text */
+.map-name button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for the search text */
+div > div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the input box */
+input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Remove default anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Center content in the map-data div */
+.map-data > div {
+  text-align: center;
+}

@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    background-color: #151515;
+    color: lightgrey;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    height: 100%;
+    color: lightgray;
+}
+.navbar-btn {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar-btn:hover {
+    opacity: 1;
+}
+
+.exit:hover {
+    color: crimson;
+}
+
+.exit {
+    flex: 1;
+    justify-self: flex-end;
+}
+
+.go-back {
+    flex: 1;
+    justify-self: flex-start;
+}
+
+.navbar-title {
+    flex: 9;
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+
+.command-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.box-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    perspective: 1125px;
+}
+
+.screen {
+    perspective: 1000px;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-35deg);
+    box-shadow: 0 4px 15px rgba(254, 254, 254, 0.8);
+}
+
+.seat-container {
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.seat {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 2px 2px;
+}
+
+.seat.selected {
+    background-color: crimson;
+}
+
+.seat:focus {
+    background-color: crimson;
+}
+
+.seat.unavailable {
+    background-color: rgb(80, 80, 80);
+}
+
+.seat:not(.unavailable):hover {
+    background-color: gray;
+}
+
+.seat:nth-of-type(4) {
+    margin-right: 18px;
+}
+.seat:nth-last-of-type(4) {
+    margin-left: 18px;
+}
+
+.seat-key {
+    display: flex;
+    list-style-type: none;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.seat-key li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9px;
+}
+
+.seat-key li p {
+    margin-left: 8px;
+}
+
+.seat-location {
+    padding-top: 20px;
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.footer-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 170px;
+    margin-left: auto;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+

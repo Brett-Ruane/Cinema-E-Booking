@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    background-color: #151515;
+    color: lightgrey;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    height: 100%;
+    color: lightgray;
+}
+.navbar-btn {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar-btn:hover {
+    opacity: 1;
+}
+
+.exit:hover {
+    color: crimson;
+}
+
+.exit {
+    flex: 1;
+    justify-self: flex-end;
+}
+
+.go-back {
+    flex: 1;
+    justify-self: flex-start;
+}
+
+.navbar-title {
+    flex: 9;
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+
+
+.movie-description {
+    display: flex;
+    align-items: center;
+}
+
+.movie-img {
+    flex: 1;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.movie-info-container {
+    flex: 6;
+}
+
+.movie-title {
+    font-size: 50px;
+    padding-bottom: 4px;
+}
+
+.movie-info {
+    font-size: 18px;
+}
+
+.content-container {
+    
+    display: flex;
+    height: 500px;
+    
+}
+
+.login-signup-container {
+    width: 50%;
+    text-align: left;
+}
+
+.promo-code-detail {
+    margin-top: 50px;
+    margin-left: 220px;
+    height: 400px;
+    width: 95%;
+     
+    
+
+}
+
+.promo-code-detail h3 {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.promo-code-detail p {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 35px;
+    display: flex;
+    
+}
+
+
+
+.sign-in:hover {
+    opacity: .6;
+}
+
+
+/* Add a background color to .item-total-container */
+.item-total-container {
+    color: white;
+    width: 50%;
+    padding: 30px;
+    opacity: 1;
+    display: flex;
+    border-radius: 10px;
+    border: 0.5px solid crimson;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Remove margins from .items and .prices, adjust their widths */
+.items {
+    margin: 0; /* Adjust width as needed */
+}
+
+.prices {
+    margin: 0; /* Adjust width as needed */
+}
+
+/* Adjust padding and text alignment for prices */
+.prices p {
+    padding-Bottom: 30px; /* Adjust padding as needed */
+    text-align: right; /* Align text to the right */
+}
+
+
+.items p {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+
+.edit {
+    text-decoration: none;
+}
+
+.footer-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 170px;
+    margin-left: auto;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
